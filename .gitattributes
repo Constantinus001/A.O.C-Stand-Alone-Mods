@@ -1,2 +1,2 @@
 # Runtime module files must remain byte-for-byte identical to the verified release.
-WorldEventsStandalone/Module/WorldEventsStandalone/** -text
+WorldEventsStandalone/Module/WorldEventsStandalone/** -text -diff
