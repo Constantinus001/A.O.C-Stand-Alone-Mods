@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="World Events Standalone" />
+  <Id value="WorldEventsStandalone" />
+  <Version value="v1.0.9" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <Official value="false" />
+  <DefaultModule value="false" />
+  <ModuleCategory value="Singleplayer" />
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="v1.4.8" />
+    <DependedModule Id="SandBoxCore" DependentVersion="v1.4.8" />
+    <DependedModule Id="Sandbox" DependentVersion="v1.4.8" />
+  </DependedModules>
+  <IncompatibleModules>
+    <Module Id="AgesOfCalradia" />
+  </IncompatibleModules>
+  <SubModules>
+    <SubModule>
+      <Name value="World Events Standalone" />
+      <DLLName value="WorldEventsStandalone.v1.0.9.dll" />
+      <SubModuleClassType value="TwelveMonthCalendar.WorldEventsStandaloneSubModule" />
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+</Module>
